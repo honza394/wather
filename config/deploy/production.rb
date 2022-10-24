@@ -41,11 +41,12 @@ server "aic13.vas-server.cz", user: "deploy", roles: %w{app db web}
 #
 # Global options
 # --------------
-#  set :ssh_options, {
+set :ssh_options, {
 #    keys: %w(/home/user_name/.ssh/id_rsa),
 #    forward_agent: false,
+	forward_agent: true
 #    auth_methods: %w(password)
-#  }
+  }
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
