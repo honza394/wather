@@ -22,7 +22,7 @@ set :deploy_to, "/www/hosting/apsyd.cz/wather"
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/secrets.yml", 'config/master.key'
+append :linked_files, "config/secrets.yml", 'config/master.key', "config/mongoid.yml"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", 
