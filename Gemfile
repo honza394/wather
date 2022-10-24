@@ -75,3 +75,5 @@ gem "capistrano"
 gem "capistrano-rails"
 gem "capistrano-passenger"
 gem "capistrano-rbenv"
+
+gem "mongoid"
