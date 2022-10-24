@@ -71,9 +71,9 @@ group :test do
   gem "webdrivers"
 end
 
-gem "capistrano"
-gem "capistrano-rails"
-gem "capistrano-passenger"
-gem "capistrano-rbenv"
+#gem "capistrano"
+#gem "capistrano-rails"
+#gem "capistrano-passenger"
+#gem "capistrano-rbenv"
 
 gem "mongoid"
