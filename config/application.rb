@@ -36,5 +36,6 @@ module Wather
     config.generators do |g|
       g.orm :mongoid
     end
+    config.mongoid.logger = Logger.new(STDERR, :warn)
   end
 end
